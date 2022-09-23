@@ -40,4 +40,14 @@ public class WebUtilDummy {
 		}
 		return driver;
 	}
+	
+	/**
+	 * This method is used to Navigate to the Application
+	 * @param driver
+	 * @param url
+	 */
+	public void openTheApplication(WebDriver driver,String url)
+	{
+		driver.get(url);
+	}
 }
